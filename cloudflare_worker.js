@@ -12,7 +12,7 @@
  *    - /search <UID> 3d       -> Returns feedbacks from the last 3 days
  */
 
-const BOT_TOKEN = "8161118850:AAHZGctqhiSkk7Kxaiv1z9Vb89knNP9ihTA";
+const BOT_TOKEN = "8664534084:AAHXavP1Xx80yRrqhT75pfe-RH_3_LvNSgk";
 const CHAT_ID = "5588211446";
 
 // In-Memory Fallback Store in case KV is not bound
