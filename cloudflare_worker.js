@@ -76,21 +76,20 @@ export default {
               body: JSON.stringify({
                 chat_id: userChatId,
                 text: 
-`[ MAFIA-XQ VIP FEEDBACK SEARCH ENGINE ]
+`[ 𝗠𝗔𝗙𝗜𝗔-𝗫𝗤 𝗩𝗜𝗣 𝗙𝗘𝗘𝗗𝗕𝗔𝗖𝗞 𝗦𝗘𝗔𝗥𝗖𝗛 𝗘𝗡𝗚𝗜𝗡𝗘 ]
 ---------------------------------
-Commands:
+𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀:
 /search <UID>           - View all match feedbacks
 /search <UID> <days>    - Filter by number of days (e.g. 1day, 3days, 7days)
 
-Examples:
+𝗘𝘅𝗮𝗺𝗽𝗹𝗲𝘀:
 /search 55763473644
 /search 55763473644 1day
 /search 55763473644 7days
 /search 55763473644 30days
 
-Developer :- @MAFIA_OWNER4 ~ MAFIA-XQ 
-Community : 
-https://t.me/+NXjr86VVJPg1Y2M1`
+𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 :- @MAFIA_OWNER4 ~ MAFIA-XQ 
+𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 :- @MAFIA_ABOUT`
               })
             });
             return new Response("OK", { status: 200 });
