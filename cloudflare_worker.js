@@ -79,8 +79,8 @@ export default {
 `[ 𝗠𝗔𝗙𝗜𝗔-𝗫𝗤 𝗩𝗜𝗣 𝗙𝗘𝗘𝗗𝗕𝗔𝗖𝗞 𝗦𝗘𝗔𝗥𝗖𝗛 𝗘𝗡𝗚𝗜𝗡𝗘 ]
 ---------------------------------
 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀:
-/search <UID>           - View all match feedbacks
-/search <UID> <days>    - Filter by number of days (e.g. 1day, 3days, 7days)
+/search <UID>        - View all match feedbacks
+/search <UID> <days> - Filter by number of days (e.g. 1day, 3days, 7days)
 
 𝗘𝘅𝗮𝗺𝗽𝗹𝗲𝘀:
 /search 55763473644
@@ -152,8 +152,7 @@ Status : No match feedbacks recorded yet for this UID.
 Note: Feedbacks are automatically saved to this database as soon as matches are played.
 
 Developer :- @MAFIA_OWNER4 ~ MAFIA-XQ 
-Community : 
-https://t.me/+NXjr86VVJPg1Y2M1`
+Community : @MAFIA_ABOUT`
                 })
               });
               return new Response("OK", { status: 200 });
@@ -186,8 +185,7 @@ Total Recorded Matches: ${feedbacks.length}
 Use "/search ${searchUid}" to view full history.
 
 Developer :- @MAFIA_OWNER4 ~ MAFIA-XQ 
-Community : 
-https://t.me/+NXjr86VVJPg1Y2M1`
+Community : @MAFIA_ABOUT`
                 })
               });
               return new Response("OK", { status: 200 });
@@ -339,8 +337,7 @@ Build  : MAFIA-XQ VIP PREMIUM
 - Safe & Secure Match Verification
 --------------------------------------
 Developer :- @MAFIA_OWNER4 ~ MAFIA-XQ 
-Community : 
-https://t.me/+NXjr86VVJPg1Y2M1
+Community : @MAFIA_ABOUT
 --------------------------------------`;
 
         // Send as Photo to Primary Channel / Chat
