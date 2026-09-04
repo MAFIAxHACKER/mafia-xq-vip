@@ -1,5 +1,5 @@
 /**
- * MAFIA VIP Auto Feedback & Advanced UID Day-Filter Search Engine - Cloudflare Worker
+ * SHIVAM Auto Feedback & Advanced UID Day-Filter Search Engine - Cloudflare Worker
  * Professional English Ultra-VIP Clean Layout (Zero Emojis)
  * Developer:- @MAFIA_OWNER4 ~ MAFIA-XQ | Community:- @MAFIA_OWNER4 ~ MAFIA-XQ 
  * 
@@ -75,7 +75,8 @@ export default {
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({
                 chat_id: userChatId,
-                text: `[ MAFIA-XQ VIP FEEDBACK SEARCH ENGINE ]
+                text: 
+`[ MAFIA-XQ VIP FEEDBACK SEARCH ENGINE ]
 ---------------------------------
 Commands:
 /search <UID>           - View all match feedbacks
@@ -143,7 +144,8 @@ https://t.me/+NXjr86VVJPg1Y2M1`
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                   chat_id: userChatId,
-                  text: `[ MAFIA-XQ VIP DATABASE SEARCH ]
+                  text: 
+`[ MAFIA-XQ VIP DATABASE SEARCH ]
 ---------------------------------
 UID    : ${searchUid}
 Status : No match feedbacks recorded yet for this UID.
@@ -174,7 +176,8 @@ https://t.me/+NXjr86VVJPg1Y2M1`
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                   chat_id: userChatId,
-                  text: `[ MAFIA-XQ VIP DATABASE SEARCH ]
+                  text: 
+`[ MAFIA-XQ VIP DATABASE SEARCH ]
 ---------------------------------
 UID    : ${searchUid}
 Filter : ${filterLabel}
@@ -197,7 +200,8 @@ https://t.me/+NXjr86VVJPg1Y2M1`
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({
                 chat_id: userChatId,
-                text: `[ MAFIA-XQ VIP DATABASE SEARCH ]
+                text: 
+`[ MAFIA-XQ VIP DATABASE SEARCH ]
 ---------------------------------
 UID        : ${searchUid}
 Filter     : ${filterLabel}
@@ -311,7 +315,7 @@ Sending photos...`
         const headerTitle = isVictory ? 
 `[ MAFIA-XQ VIP ANTIBAN ENGINE ]
 [ MAFIA-XQ VIP MATCH VICTORY ]` :
-`[ MAFIA_MODZ VIP AUTO FEEDBACK ]
+`[ MAFIA MODZ VIP AUTO FEEDBACK ]
 [ MAFIA-XQ VIP PREMIUM ]`;
 
         const killDisplay = isVictory ? 
@@ -319,33 +323,25 @@ Sending photos...`
           `${playerKills} Kills`;
 
         // Clean Professional English Layout (Zero Emojis)
-        const captionText = `╭━━━━━━━━━━━━━━━━━━━━━━━━━━╮
-       𝙈𝘼𝙁𝙄𝘼-𝙓𝙌 𝙑𝙄𝙋
-      𝙈𝘼𝙏𝘾𝙃 𝙁𝙀𝙀𝘿𝘽𝘈𝘾𝙆
-╰━━━━━━━━━━━━━━━━━━━━━━━━━━╯
+        const captionText = 
+`${headerTitle}
 
-𝙍𝙚𝙨𝙪𝙡𝙩  : ${isVictory ? "𝘾𝙝𝙞𝙘𝙠𝙚𝙣 𝘿𝙞𝙣𝙣𝙚𝙧" : "𝙈𝙖𝙩𝙘𝙝 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙙"}
-𝙈𝙤𝙙𝙚    : 𝘾𝙡𝙖𝙨𝙨𝙞𝙘
-𝙏𝙞𝙢𝙚    : ${dateStr} • ${timeStr}
-
-𝙋𝙡𝙖𝙮𝙚𝙧   : ${playerName}
-𝙐𝙄𝘿      : ${playerUid}
-𝙆𝙞𝙡𝙡𝙨    : ${killDisplay}
-𝘾𝙡𝙖𝙨𝙨𝙞𝙘 𝙍𝙖𝙣𝙠 : ${playerRank}
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-        𝙑𝙄𝙋 𝙎𝙀𝘾𝙐𝙍𝙄𝙏𝙔
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-𝘼𝙣𝙩𝙞-𝘽𝙖𝙣       : 𝟭𝟬𝟬% 𝙎𝙀𝘾𝙐𝙍𝙀
-𝙑𝙄𝙋 𝙋𝙧𝙤𝙩𝙚𝙘𝙩𝙞𝙤𝙣 : 𝘼𝘾𝙏𝙄𝙑𝙀
-𝙑𝙚𝙧𝙞𝙛𝙞𝙘𝙖𝙩𝙞𝙤𝙣   : 𝙑𝙀𝙍𝙄𝙁𝙄𝙀𝘿
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-      𝙈𝘼𝙁𝙄𝘼-𝙓𝙌 𝙑𝙄𝙋
-     𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝙎𝙔𝙎𝙏𝙀𝙈
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 ➜ @MAFIA_OWNER4
-𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮 ➜ @MAFIA_ABOUT`;
+Player : ${playerName}
+UID    : ${playerUid}
+Time   : ${timeStr} | ${dateStr}
+Kills  : ${killDisplay}
+Rank   : ${playerRank}
+Build  : MAFIA-XQ VIP PREMIUM
+-------------------------------------------------------------------
+[ STATUS : ACTIVE & 100% SECURE ]
+--------------------------------------------------------------------
+- Undetected & Anti-Ban Protected
+- High-Performance ESP & Visuals
+- Safe & Secure Match Verification
+--------------------------------------------------------------------
+Developer :- @MAFIA_OWNER4 ~ MAFIA-XQ 
+Community : 
+https://t.me/+NXjr86VVJPg1Y2M1`;
 
         // Send as Photo to Primary Channel / Chat
         const photoForm = new FormData();
