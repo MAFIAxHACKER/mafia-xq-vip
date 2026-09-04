@@ -2,10 +2,6 @@ name = "mafia-xq-vip"
 main = "cloudflare_worker.js"
 compatibility_date = "2026-08-04"
 
-[env.production]
-name = "mafia-xq-vip"
-main = "cloudflare_worker.js"
-
-[[env.production.kv_namespaces]]
+[[kv_namespaces]]
 binding = "FEEDBACK_STORE"
 id = "cf2079edb17b4c0886ec4ad26777f8b7"
