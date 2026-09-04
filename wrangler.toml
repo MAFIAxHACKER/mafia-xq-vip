@@ -8,4 +8,4 @@ main = "cloudflare_worker.js"
 
 [[env.production.kv_namespaces]]
 binding = "FEEDBACK_STORE"
-id = "c0343f8b59b74a61a29685102e0ec461"
+id = "cf2079edb17b4c0886ec4ad26777f8b7"
