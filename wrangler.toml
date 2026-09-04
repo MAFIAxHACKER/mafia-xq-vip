@@ -1,9 +1,9 @@
-name = "Mafia-xq-vip"
+name = "mafia-xq-vip"
 main = "cloudflare_worker.js"
 compatibility_date = "2026-08-04"
 
 [env.production]
-name = "Mafia-xq-vip"
+name = "mafia-xq-vip"
 main = "cloudflare_worker.js"
 
 [[env.production.kv_namespaces]]
