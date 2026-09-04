@@ -1,5 +1,5 @@
 /**
- * SHIVAM Auto Feedback & Advanced UID Day-Filter Search Engine - Cloudflare Worker
+ * MAFIA VIP Auto Feedback & Advanced UID Day-Filter Search Engine - Cloudflare Worker
  * Professional English Ultra-VIP Clean Layout (Zero Emojis)
  * Developer:- @MAFIA_OWNER4 ~ MAFIA-XQ | Community:- @MAFIA_OWNER4 ~ MAFIA-XQ 
  * 
@@ -153,7 +153,7 @@ Status : No match feedbacks recorded yet for this UID.
 Note: Feedbacks are automatically saved to this database as soon as matches are played.
 
 Developer :- @MAFIA_OWNER4 ~ MAFIA-XQ 
-Community : 
+        Community : 
 https://t.me/+NXjr86VVJPg1Y2M1`
                 })
               });
@@ -271,8 +271,8 @@ Sending photos...`
         }
 
         // Auto-decode Base64 ASCII if applicable
-        const isBase64 = (uint8[0] === 0x2F && uint8[1] === 0x39 && uint8[2] === 0x6A) || // /9j/
-                         (uint8[0] === 0x69 && uint8[1] === 0x56 && uint8[2] === 0x42) || // iVBOR
+        const isBase64 = (uint8[0] === 0x2F && uint8[1] === 0x39 && uint8[2] === 0x6A) ||
+                         (uint8[0] === 0x69 && uint8[1] === 0x56 && uint8[2] === 0x42) ||
                          (request.headers.get("content-type") || "").includes("text");
 
         if (isBase64) {
@@ -284,21 +284,19 @@ Sending photos...`
             for (let i = 0; i < binaryStr.length; i++) {
               uint8[i] = binaryStr.charCodeAt(i);
             }
-          } catch (e) {
-            // Keep uint8 as raw if base64 decoding fails
-          }
+          } catch (e) {}
         }
 
         let mimeType = "image/jpeg";
-        let filename = "shivam_shot.jpg";
+        let filename = "mafia_shot.jpg";
 
         // Detect PNG magic bytes vs JPEG
         if (uint8[0] === 0x89 && uint8[1] === 0x50 && uint8[2] === 0x4E && uint8[3] === 0x47) {
           mimeType = "image/png";
-          filename = "shivam_shot.png";
+          filename = "mafia_shot.png";
         } else if (uint8[0] === 0xFF && uint8[1] === 0xD8) {
           mimeType = "image/jpeg";
-          filename = "shivam_shot.jpg";
+          filename = "mafia_shot.jpg";
         }
 
         // Live In-Game Player Metadata
@@ -310,38 +308,47 @@ Sending photos...`
 
         const now = new Date();
         const timeStr = now.toLocaleTimeString("en-US", { hour12: true, timeZone: "Asia/Kolkata" });
-        const dateStr = now.toLocaleDateString("en-GB", { timeZone: "Asia/Kolkata" }); // DD/MM/YYYY
+        const dateStr = now.toLocaleDateString("en-GB", { timeZone: "Asia/Kolkata" });
 
         const headerTitle = isVictory ? 
-`[ MAFIA-XQ VIP AUTO FEEDBACK ]
-[ MAFIA-XQ VIP MATCH VICTORY ]` :
-`[ MAFIA-XQ VIP AUTO FEEDBACK ]
-[ MAFIA-XQ VIP PREMIUM ]`;
+`[ MAFIA-XQ VIP PREMIUM ]`;
 
         const killDisplay = isVictory ? 
           `${playerKills} (Victory Winner)` : 
           `${playerKills} Kills`;
 
-        // Clean Professional English Layout (Zero Emojis)
-        const captionText = 
-`${headerTitle}
+        // ====================================================
+        // UPDATED FEEDBACK LOOK ONLY
+        // ====================================================
 
-Player : ${playerName}
-UID    : ${playerUid}
-Time   : ${timeStr} | ${dateStr}
-Kills  : ${killDisplay}
-Rank   : ${playerRank}
-Build  : MAFIA-XQ VIP PREMIUM
----------------------------------
-[ STATUS : ACTIVE & 100% SECURE ]
+        const captionText =
+`╭━━━━━━━━━━━━━━━━━━━━━━━━━━╮
+       𝙈𝘼𝙁𝙄𝘼-𝙓𝙌 𝙑𝙄𝙋
+      𝙈𝘼𝙏𝘾𝙃 𝙁𝙀𝙀𝘿𝘽𝘼𝘾𝙆
+╰━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
-- Undetected & Anti-Ban Protected
-- High-Performance ESP & Visuals
-- Safe & Secure Match Verification
+𝙍𝙚𝙨𝙪𝙡𝙩  : ${isVictory ? "𝘾𝙝𝙞𝙘𝙠𝙚𝙣 𝘿𝙞𝙣𝙣𝙚𝙧" : "𝙈𝙖𝙩𝙘𝙝 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙙"}
+𝙈𝙤𝙙𝙚    : 𝘾𝙡𝙖𝙨𝙨𝙞𝙘
+𝙏𝙞𝙢𝙚    : ${dateStr} • ${timeStr}
 
-Developer :- @MAFIA_OWNER4 ~ MAFIA-XQ 
-Community : 
-https://t.me/+NXjr86VVJPg1Y2M1`;
+𝙋𝙡𝙖𝙮𝙚𝙧   : ${playerName}
+𝙐𝙄𝘿      : ${playerUid}
+𝙆𝙞𝙡𝙡𝙨    : ${killDisplay}
+𝘾𝙡𝙖𝙨𝙨𝙞𝙘 𝙍𝙖𝙣𝙠 : ${playerRank}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+        𝙑𝙄𝙋 𝙎𝙀𝘾𝙐𝙍𝙄𝙏𝙔
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+𝘼𝙣𝙩𝙞-𝘽𝙖𝙣       : 𝟭𝟬𝟬% 𝙎𝙀𝘾𝙐𝙍𝙀
+𝙑𝙄𝙋 𝙋𝙧𝙤𝙩𝙚𝙘𝙩𝙞𝙤𝙣 : 𝘼𝘾𝙏𝙄𝙑𝙀
+𝙑𝙚𝙧𝙞𝙛𝙞𝙘𝙖𝙩𝙞𝙤𝙣   : 𝙑𝙀𝙍𝙄𝙁𝙄𝙀𝘿
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+      𝙈𝘼𝙁𝙄𝘼-𝙓𝙌 𝙑𝙄𝙋
+     𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝙎𝙔𝙎𝙏𝙀𝙈
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 ➜ @MAFIA_OWNER4
+𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮 ➜ @MAFIA_ABOUT`;
 
         // Send as Photo to Primary Channel / Chat
         const photoForm = new FormData();
