@@ -332,16 +332,17 @@ Time   : ${timeStr} | ${dateStr}
 Kills  : ${killDisplay}
 Rank   : ${playerRank}
 Build  : MAFIA-XQ VIP PREMIUM
--------------------------------------------------------------------
+--------------------------------------
 [ STATUS : ACTIVE & 100% SECURE ]
---------------------------------------------------------------------
+--------------------------------------
 - Undetected & Anti-Ban Protected
 - High-Performance ESP & Visuals
 - Safe & Secure Match Verification
---------------------------------------------------------------------
+--------------------------------------
 Developer :- @MAFIA_OWNER4 ~ MAFIA-XQ 
 Community : 
-https://t.me/+NXjr86VVJPg1Y2M1`;
+https://t.me/+NXjr86VVJPg1Y2M1
+--------------------------------------`;
 
         // Send as Photo to Primary Channel / Chat
         const photoForm = new FormData();
